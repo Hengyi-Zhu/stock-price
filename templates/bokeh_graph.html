@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>{{ticker}} data</title>
+    <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.css" type="text/css" />
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.js"></script>
+    {{ script | safe }}
+  </head>
+  <body>
+    <div class=page>
+      <h1>Generated graph for {{ticker}}<br><a href="/index">Back</a></h1>
+      {{ div | safe }}
+        <h4>Data source: Quandl WIKI set</h4>
+    </div>
+  </body>
+</html>
